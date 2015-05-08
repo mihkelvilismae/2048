@@ -10,6 +10,7 @@ public class Main extends Application {
 	public static long lastMove = System.currentTimeMillis();
 	
 	public void start(Stage primaryStage) {
+		System.out.println("test");
 		try {
 			GameField.fieldHeight = 4;
 			GameField.fieldWidth = 4;
